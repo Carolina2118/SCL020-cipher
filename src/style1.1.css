@@ -1,105 +1,137 @@
-
-body{
-    background:rgba(176, 93, 197, 0.677);
-    font-family:'lato',sans-serif;
+body {
+    background: rgba(209, 121, 232, 0.677);
+    font-family: 'lato', sans-serif;
 }
+
 h1 {
-
-    color: rgb(219, 191, 29);/*cambio color letra */
-    text-align: center;/*posicione las letras al centro*/
-    margin-bottom: 5%;/*posicione el cuadro mas abajo*/
+    color: rgb(219, 191, 29);
+    /*cambio color letra */
+    text-align: center;
+    /*posicione las letras al centro*/
+    margin-bottom: 5%;
+    /*posicione el cuadro mas abajo*/
     margin-top: 62px;
-    font-size: 70px; /*tamaño de la letra */
-    text-shadow: 6px 5px #252020; /*sombra letra */
-
+    font-size: 70px;
+    /*tamaño de la letra */
+    text-shadow: 6px 5px #252020;
+    /*sombra letra */
 }
+
 .card .cipherCard {
-
-    font-family: 'Jomolhari';/*Diseño de la letra*/
-    color: #E0990F; /*color letra*/
-    font-size: 35px;/*tamaño de la letras*/
-    line-height: 100px; /*altura de letra*/
+    font-family: 'Jomolhari';
+    /*Diseño de la letra*/
+    color: #E0990F;
+    /*color letra*/
+    font-size: 35px;
+    /*tamaño de la letras*/
+    line-height: 100px;
+    /*altura de letra*/
     padding-top: 36px;
-
-
 }
 
 .Cifrador {
-    width: 90%;/*tamaño de pagina*/
-    max-width: 1000px;/*limitar ancho pagina*/ 
-    padding: 40px 20px;/*contenedor */
-    
+    width: 90%;
+    /*tamaño de pagina*/
+    max-width: 1000px;
+    /*limitar ancho pagina*/
+    padding: 40px 20px;
+    /*contenedor */
 }
 
 .card {
-    width: 100%; /*ancho tarjeta */
-    max-width: 600px; /* maximo tarjeta */
+    width: 100%;
+    /*ancho tarjeta */
+    max-width: 600px;
+    /* maximo tarjeta */
     margin: auto;
-    color: #fff;  /*color letra*/
+    color: #fff;
+    /*color letra*/
     background: url(tarjeta.png);
-   
-    background-size: 670px;/*tamaño de imagen*/
-    padding-left: 57px;/*cuadra contenido dentro de la imagen*/
+    background-size: 670px;
+    /*tamaño de imagen*/
+    padding-left: 57px;
+    /*cuadra contenido dentro de la imagen*/
 }
 
-.label{
-    font-size:16px;/*tamaño letra*/
-    color: darkgoldenrod;/*color letra*/
-    margin-bottom:10px;
-
-} 
-
+.label {
+    font-size: 16px;
+    /*tamaño letra*/
+    color: darkgoldenrod;
+    /*color letra*/
+    margin-bottom: 10px;
+}
 
 .datosNumer .number {
-   
-    color: #fff; /*color letras */
-    text-transform: uppercase;/*siempre mayuscula*/ 
-
-}
-.datosTexto .texto{
     color: #fff;
-    text-transform: uppercase;/*texto todo en mayuscula */
+    /*color letras */
+    text-transform: uppercase;
+    /*siempre mayuscula*/
 }
 
-.datosExpiracion .expiracion{
+.datosTexto .texto {
     color: #fff;
     text-transform: uppercase;
-
+    /*texto todo en mayuscula */
 }
 
-                /*---- formulario ----*/
-.formularioCard {
+.datosExpiracion .expiracion {
+    color: #fff;
+    text-transform: uppercase;
+}
 
+
+/*---- formulario ----*/
+
+.formularioCard {
     background-color: rgba(247, 79, 174, 0.716);
-    width: 100%;/* ancho de la caja */
-    max-width: 500px;/*maximo de caja*/
+    width: 100%;
+    /* ancho de la caja */
+    max-width: 500px;
+    /*maximo de caja*/
     padding: 4% 30px 30px 30px;
-    border-radius: 40px;/*doble de las puntas */
-    margin-left: 38.5%;/*margen izquierdo */ 
+    border-radius: 40px;
+    /*doble de las puntas */
+    margin-left: 38.5%;
+    /*margen izquierdo */
     font-size: 150%;
 }
-.formularioCard label{
-    display: block; /*ocupa toda la linea */
-    color: rgb(16, 16, 16);/*color letra */
-    margin-bottom: 5px;/* margen del booton (separaciones)*/
-    font-size: 16px;/*tamaño letra*/
 
+.formularioCard label {
+    display: block;
+    /*ocupa toda la linea */
+    color: rgb(16, 16, 16);
+    /*color letra */
+    margin-bottom: 5px;
+    /* margen del booton (separaciones)*/
+    font-size: 16px;
+    /*tamaño letra*/
 }
- input{
-     border: 2px solid;/*borde de los botones */
-     font-size: 18px;   /* letra dentro de boton*/
-     height: 50px;/*tamaño de boton*/
-     width: 100%;/* ancho de boton de datos */
-     padding: 5px 12px ;/*ancho  boton y posicion de letra,dentro  */
-     border-radius: 50px/*redondear el botom*/
 
- }
- button{ 
-     margin-left: 7%;/*margen izquierdo */ 
-    color:rgb(29, 20, 20);/*color letra */
-    background-color:rgba(171, 10, 241, 0.721) ;/*fondo de caja*/
-    padding:  25px  159px;/*tamaño de boton alto y ancho*/
-  border-radius: 40px;/*redondear el botom*/
-  font-size: 1.5em;/*cuerpo mas grande del texto*/
-  
+input {
+    border: 2px solid;
+    /*borde de los botones */
+    font-size: 18px;
+    /* letra dentro de boton*/
+    height: 50px;
+    /*tamaño de boton*/
+    width: 100%;
+    /* ancho de boton de datos */
+    padding: 5px 12px;
+    /*ancho  boton y posicion de letra,dentro  */
+    border-radius: 50px/*redondear el botom*/
+}
+
+button {
+    margin-left: 7%;
+    /*margen izquierdo */
+    color: rgb(29, 20, 20);
+    /*color letra */
+    background-color: rgba(160, 214, 60, 0.721);
+    /*fondo de caja*/
+    padding: 25px 159px;
+    /*tamaño de boton alto y ancho*/
+    border-radius: 40px;
+    /*redondear el botom*/
+    font-size: 1.5em;
+    /*cuerpo mas grande del texto*/
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,7 +35,7 @@
         <div class="formulario">
 
             <label for="numeroCard">NUMERO TARJETA</label>
-            <input type="text" id="numeroCard" maxlength="19" autocomplete="off">
+            <input type="text" id="numeroCard" manombreCard xlength="19" autocomplete="off">
         </div>
         <!---laber: selecciona el cursor para introduccior dato-->
         <div class="nombreData">
@@ -45,10 +46,10 @@
         <div class="fechaExpire">
 
             <label for="expireCard">Expiracion</label>
-            <input type="text" id="expireCardMes" placeholder="Mes"maxlength="3" autocomplete="off">
-          
-            <input type="text" id="expireCardYear"placeholder="Año" maxlength="4" autocomplete="off">
-            
+            <input type="text" id="expireCardMes" placeholder="Mes" maxlength="3" autocomplete="off">
+
+            <input type="text" id="expireCardYear" placeholder="Año" maxlength="4" autocomplete="off">
+
         </div>
         <div class="posicion">
 
@@ -57,9 +58,9 @@
 
         </div>
 
-        <button type="submit" id="enviar">Enviar</button>
+        <button type="submit" id="enviar" onclick="captura()">Enviar</button>
     </form>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
