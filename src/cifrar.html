@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.1.css" />
+    <title>Card</title>
+</head>
+
+<body>
+    <h1>INGRESA LOS DATOS DE TU TARJETA</h1>
+    <section class="card" id="card">
+        <div class="cipherCard">Cipher Card</div>
+
+        <div class="Cifrador">
+            <div class="datosNumer" id="numeroTarjeta">
+                <p class="label">NUMERO TARJETA</p>
+                <p class="number">#### #### #### ####</p>
+            </div>
+            <div class="datos">
+                <div class="datosTexto" id="nombre">
+                    <p class=" label">NOMBRE</p>
+                    <p class="texto">Pepito Paga Doble </p>
+                </div>
+                <div class="datoExpiracion" id="Expiracion">
+                    <p class="label">Expiracion</p>
+                    <p class="expiracion"><span class="mes"> MM </span> / <span class="year">AA</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------ formulario card--------->
+
+    <form action="" id="formularioCard" class="formularioCard">
+        <div class="formulario">
+
+            <label for="numeroCard">NUMERO TARJETA</label>
+            <input type="text" id="numeroCard" manombreCard xlength="19" autocomplete="off">
+        </div>
+        <!---laber: selecciona el cursor para introduccior dato-->
+        <div class="nombreData">
+            <label for="nombreCard">NOMBRE</label>
+            <input type="text" id="nombreCard" maxlength="19" autocomplete="off">
+        </div>
+
+        <div class="fechaExpire">
+
+            <label for="expireCard">Expiracion</label>
+            <input type="text" id="expireCardMes" placeholder="Mes" maxlength="3" autocomplete="off">
+
+            <input type="text" id="expireCardYear" placeholder="Año" maxlength="4" autocomplete="off">
+
+        </div>
+        <div class="posicion">
+
+            <label for="posicionCifrar">Espacio a cifrar</label>
+            <input type="text" id="posicionCifrar" maxlength="9" autocomplete="off">
+
+        </div>
+
+        <button type="submit" id="enviar" onclick="captura()">Enviar</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>

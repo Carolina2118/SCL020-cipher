@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //import cipher from './cipher.js';
 
 window.addEventListener("load", inicio, true);
@@ -65,3 +66,14 @@ function descifrar(texto, desplazamiento) {
 
 }
 //console.log(cipher)
+=======
+/*port cipher from './cipher.js';
+console.log(cipher);*/
+
+var numero = document.getElementById("numeroCard");
+var nombre = document.getElementById("nombreCard");
+var expiracion1 = document.getElementById("expireCardMes");
+var expiracion2 = document.getElementById("expireCardyear");
+
+var from = document.getElementById("formularioCard")
+>>>>>>> 60f2b8463ec91f1c09a378bd02b74d04b67b916d

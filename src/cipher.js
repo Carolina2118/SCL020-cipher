@@ -1,4 +1,5 @@
 const cipher = {
+<<<<<<< HEAD
         function cifrar(texto, desplazamiento) {
             let resultado = "";
             let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -41,3 +42,9 @@ const cipher = {
 
         }
         export default cipher;
+=======
+    // ...
+};
+
+export default cipher;
+>>>>>>> 60f2b8463ec91f1c09a378bd02b74d04b67b916d
